@@ -16,14 +16,27 @@
     /* background-color: aqua; */
 }
 
+.header .company-logo:hover{
+    background-color: #002d58;
+}
+
+.header .company-logo{
+    height: 50px;
+    width: 50px;
+    border-radius: 25px;
+}
 /* logo */
 .header #logo{
     position: relative;
     top: 10px;
+    left: 10px;
+    
 }
 
-
 /* cart */
+.header .cart-container:hover{
+    background-color: #002d58;
+}
 /* cart logo */
 .header .bi-cart{
     color: white;
@@ -37,7 +50,9 @@
     flex-direction: column;
     justify-content: center;
     align-content: center;
-    
+    height: 50px;
+    width: 70px;
+    border-radius: 25px;
 }
 .header .cart-logo .bi-cart{
     top: 5px;
@@ -51,16 +66,22 @@
     position: relative;
     top: 5px;
     color: white;
-    
+    left: 10px;
     justify-content: center;
 }
 
 
 /* Account */
+.header .account:hover{
+    background-color: #002d58;
+}
 /* account span  */
 .header .account{
+    height: 50px;
+    width: 120px;
     display: flex;
     justify-content: center;
+    border-radius: 25px;
     /* background-color: aqua; */
 }
 
@@ -103,11 +124,15 @@
 
 
 /* search Container */
+
+.header .search-container button:hover{
+    background-color: #002d58;
+}
 #search_id{
     width: 700px;
     height: 50px;
     border-radius: 25px;
-    flex-grow: 1;
+    /* flex-grow: 1;     */
     padding: 20px;
 }
 
@@ -122,10 +147,15 @@
 
 .header .search-container .bi-search{
     font-weight: bold;
+    position: relative;
+    bottom: 2px;
 }
 
 
 /* pick up */
+.header .pick-up:hover{
+    background-color:#002d58;
+}
 .header .pick-up{
     background-color:#004f9a;
     height: 50px;
@@ -137,6 +167,13 @@
     
 }
 
+.header .pick-up-text{
+    color: white;
+    font-weight: 500;
+    font-size: 14px;
+    position: relative;
+    top: 12px;
+}
 .header .shop{
     position: relative;
     top: 10px;
@@ -164,7 +201,7 @@
 .header .drop-down-arrow{
     position: relative;
     top: 10px;
-    right: 20px;
+    right: 15px;
 }
 
 .header .bi-chevron-down{
