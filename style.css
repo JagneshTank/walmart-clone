@@ -1,0 +1,177 @@
+.main-container{
+    background-color: white;
+}
+/* header of websiste */
+.header{
+    height: 80px;
+    background-color: #0071dc;
+    align-content: center;
+}
+/* middle row in header part */
+.header-row{
+    display: flex;
+    /* flex-direction: column; */
+    justify-content:space-evenly;
+    align-content: center;
+    /* background-color: aqua; */
+}
+
+/* logo */
+.header #logo{
+    position: relative;
+    top: 10px;
+}
+
+
+/* cart */
+/* cart logo */
+.header .bi-cart{
+    color: white;
+    font-size: 15px;
+    display: grid;
+    justify-self: center;
+}
+/* cart span */
+.header .cart-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+    
+}
+.header .cart-logo .bi-cart{
+    top: 5px;
+    color: white; /* Change color of the person icon */
+    font-weight: bold; /* Optional: Make the icon bold */
+    font-size: 20px;  /* Optional: Adjust icon size */ 
+    position: relative;
+    justify-content: center;
+}
+.header .cart-details{
+    position: relative;
+    top: 5px;
+    color: white;
+    
+    justify-content: center;
+}
+
+
+/* Account */
+/* account span  */
+.header .account{
+    display: flex;
+    justify-content: center;
+    /* background-color: aqua; */
+}
+
+/* account logo div*/
+.header .account-logo{
+    padding: 9px;
+}
+
+/* account logo bootstrap */
+.header .account-logo .bi-person {
+    color: white; /* Change color of the person icon */
+    font-weight: bold; /* Optional: Make the icon bold */
+    font-size: 15px;  /* Optional: Adjust icon size */ 
+    position: relative;
+    /* top: 2px;   display: flex; */
+}
+/* account text */
+.header .account-details{
+    display: flex;
+    color: white;
+    flex-direction: column;
+    justify-content: center;
+}
+/* account text for specific effect */
+.header .account-details .ac2{
+    font-weight: bolder;
+    font-size: 15px;
+}
+
+
+/* my order */
+/* my order logo css */
+.header .account-logo .bi-heart {
+    color: white; /* Change color of the person icon */
+    font-weight: bold; /* Optional: Make the icon bold */
+    font-size: 15px;  /* Optional: Adjust icon size */ 
+    position: relative;
+    /* top: 2px;   display: flex; */
+}
+
+
+/* search Container */
+#search_id{
+    width: 700px;
+    height: 50px;
+    border-radius: 25px;
+    flex-grow: 1;
+    padding: 20px;
+}
+
+.header .search-container button{
+    border-radius: 50%;
+    background-color: #004f9a;
+    color: white;
+    position: relative;
+    right: 45px;
+    
+}
+
+.header .search-container .bi-search{
+    font-weight: bold;
+}
+
+
+/* pick up */
+.header .pick-up{
+    background-color:#004f9a;
+    height: 50px;
+    width:300px;
+    border-radius: 25px;
+    display: flex;
+    justify-content: space-between;
+    align-content: center;
+    
+}
+
+.header .shop{
+    position: relative;
+    top: 10px;
+    left: 10px;
+    background-color: #d7edfd;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.header .shop .bi-shop{
+    color: #0970c6;
+    font-weight: bolder;
+   
+}
+
+
+
+
+
+
+.header .drop-down-arrow{
+    position: relative;
+    top: 10px;
+    right: 20px;
+}
+
+.header .bi-chevron-down{
+    color: white;
+
+}
+
+
+
+
