@@ -153,9 +153,12 @@
 
 
 /* pick up */
-.header .pick-up:hover{
-    background-color:#002d58;
+#pick-up-id:hover{
+    background-color: #002d58;
 }
+
+
+
 .header .pick-up{
     background-color:#004f9a;
     height: 50px;
@@ -178,7 +181,7 @@
     position: relative;
     top: 10px;
     left: 10px;
-    background-color: #d7edfd;
+    background-color: #d3eff8;
     height: 30px;
     width: 30px;
     border-radius: 50%;
@@ -209,6 +212,83 @@
 
 }
 
+.header .bi-chevron-up{
+    color: white;
+}
+
+.experiment{
+    margin: 20px;
+    
+    height: 500px;
+    width: 500px;
+    background-color: aqua;
+}
+
+.header .pick-up .drop-down-menu {
+    display: none;
+    position: absolute;  
+    /* justify-content: end; */
+    vertical-align: end;
+    top: 105%;
+    /* This is very usefull to set element anywhere in body */
+    transform: translateX(-83%);
+    /* border-color: white; */
+    width: 350px;
+    height: 350px;
+    background-color: #0071dc;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+}
 
 
+/* pick up option dropdown menu */
+
+.header .pick-up .drop-down-menu span{
+    display: flex;
+    justify-content: center;
+    margin-top: 30px ;
+}
+
+.header .pick-up .drop-down-menudiv{
+    display: grid;
+    justify-content: center;
+    align-content: center;
+}
+.header .pick-up .drop-down-menu .modes{
+    height: 50px;
+    width: 50px;
+    display: flex;
+    border-radius: 25px;
+    background-color:#d3eff8;
+    justify-content: center;
+    align-items: center;
+    margin-left: 15px;
+    margin-right: 15px; /* Center vertically */
+    /* height: 100px; */
+}
+.header .pick-up .drop-down-menu p{
+    color: white;
+    font-size: 13px;
+    font-weight: bold;
+    margin-top: 7px;
+    justify-content: center
+    ;
+    align-self: center;
+}
+.header .pick-up .drop-down-menu .shiping-address{
+    display: flex;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    height: 100px;
+    width:  300px;
+    border-radius: 10px;
+    background-color: white;
+    margin: 10px auto; 
+}
+.header .pick-up .drop-down-menu i{
+    font-size: 30px;
+    font-weight: bolder;
+    padding: 10px;
+    color:#0071dc;
+}
 
